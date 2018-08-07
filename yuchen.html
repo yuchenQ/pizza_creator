@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Yuchen_ex1</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <section>
+        <h1>Pizza Creator</h1>
+        <section>
+            <div>
+                <div>
+                    <img src="../assets/board.svg" alt="Pizza board">
+                </div>
+                <div>
+                    <img src="../assets/base.svg" alt="Pizza base">
+                </div>
+                <div>
+                    <img src="../assets/toppings/anchovies.svg" alt="Anchovies">
+                    <img src="../assets/toppings/bacons.svg" alt="Bacon">
+                    <img src="../assets/toppings/basils.svg" alt="Basil">
+                    <img src="../assets/toppings/chilies.svg" alt="Chilies">
+                    <img src="../assets/toppings/mozzarellas.svg" alt="Mozzarella">
+                    <img src="../assets/toppings/mushrooms.svg" alt="Mushrooms">
+                    <img src="../assets/toppings/olives.svg" alt="Olives">
+                    <img src="../assets/toppings/onions.svg" alt="Onions">
+                    <img src="../assets/toppings/peppers.svg" alt="Peppers">
+                </div>
+            </div>
+        </section>
+        <section>
+            <form action="">
+                <section>
+                    <h2>Enter your details</h2>
+                    <div>
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email">
+                        </div>
+                        <div>
+                            <label for="confirm_email">Confirm email</label>
+                            <input type="text" id="confirm_email" name="confirm_email">
+                        </div>
+                        <div>
+                            <label for="address">Address</label>
+                            <input type="text" id="address" name="address">
+                        </div>
+                        <div>
+                            <label for=postcode "">Postcode</label>
+                            <input type="text" id="postcode" name="postcode">
+                        </div>
+                        <div>
+                            <label for="contact_number">Contact number</label>
+                            <input type="text" id="contact_number" name="contact_number">
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h2>Choose your toppings</h2>
+                    <div>
+                        <!-- 这里不需要再写 HTML 了， 刚才的 JS 会生成 HTML -->
+                    </div>
+                </section>
+                <section>
+                    <h2>Summary</h2>
+                    <ul>
+                        <li>
+                            <span>Pizza</span>
+                            <span>$9.99</span>
+                            <ul>
+                                <li>
+                                    <span>Onion</span>
+                                    <span>$0.99</span>
+                                </li>
+                                <li>
+                                    <span>Mushroom</span>
+                                    <span>$0.99</span>
+                                </li>
+                                <li>
+                                    <span>Bacon</span>
+                                    <span>$0.99</span>
+                                </li>
+                                <li>
+                                    <span>Anchovy</span>
+                                    <span>$0.99</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <hr>
+                    <p>
+                        Total: $13.86
+                    </p>
+                    <p>
+                        <button type="submit">
+                            Place order
+                        </button>
+                    </p>
+                </section>
+            </form>
+        </section>
+    </section>
+</body>
+
+</html>
